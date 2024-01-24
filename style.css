@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 26px 40px;
+}
+
+#header span {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+#header ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul li a:hover {
+    color: #c3c5c7;
+}
+
+#hero, #header {
+    background-color: #1F2937;
+
+}
+
+#hero {
+    margin: 0;
+    display: flex;
+    padding: 60px 30px;
+    flex: 1;
+    justify-content: center;
+    gap: 32px;
+    height: 580px;
+}
+
+#hero-left {
+    flex-basis: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#hero #hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 22px 0;
+}
+
+#hero #hero-left button {
+    background-color: #3882f6;
+    padding: 18px 22px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-style: none;
+}
+
+#hero #hero-left button:hover {
+    background-color: #3169c2;
+}
