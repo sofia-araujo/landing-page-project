@@ -13,6 +13,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 26px 40px;
+    position: fixed;
 }
 
 #header span {
@@ -46,11 +47,12 @@ ul li a:hover {
 #hero {
     margin: 0;
     display: flex;
-    padding: 60px 30px;
+    padding: 100px 30px;
     flex: 1;
     justify-content: center;
     gap: 32px;
-    height: 580px;
+    height: 670px;
+    align-items: center;
 }
 
 #hero-left {
@@ -80,4 +82,30 @@ h1 {
 
 #hero #hero-left button:hover {
     background-color: #3169c2;
+}
+
+#projects{
+    text-align: center;
+    padding: 50px 30px;
+}
+
+#projects h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+#cards {
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cards span {
+    display: block;
+    margin-top: 22px;
+}
+
+.card img {
+    border-radius: 6px;
 }
