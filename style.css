@@ -109,3 +109,46 @@ h1 {
 .card img {
     border-radius: 6px;
 }
+
+#contact {
+    background-color: #e5e7eb;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#contact button {
+    background-color: #3882f6;
+    padding: 18px 22px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 900;
+    border-style: none;
+}
+
+#contact button:hover {
+    background-color: #3169c2;
+}
+
+#contact div span {
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+#footer {
+    background-color: #1F2937;
+    color: #c3c5c7;
+    padding: 26px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
